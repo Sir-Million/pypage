@@ -25,17 +25,16 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
-    min-height: 300px;
     background: #8e9eab;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .container
 {
-    animation: transitionIn 1s;
+    animation: transitionIn 2s;
     width: 100%;
     max-width: 1200px;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
     justify-content: center;
@@ -43,7 +42,7 @@ body {
 }
 .navigation
 {
-    position: relative;
+    position: static;
     width: 1300px;
     height: 100px;
     background: #7586ba;
@@ -104,5 +103,5 @@ body {
 .navigation ul li:hover a .text
 {
     opacity: 1;
-    transform: translateY(-20px);
+    transform: translateY(-25px);
 }
