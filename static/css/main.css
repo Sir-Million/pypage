@@ -33,17 +33,20 @@ body {
 {
     animation: transitionIn 2s;
     width: 100%;
-    max-width: 1200px;
-    display: flex;
+    display: inline;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
     justify-content: center;
     align-items: center;
 }
+.container-2
+{
+    margin-top: 10px;
+}
 .navigation
 {
     position: static;
-    width: 1300px;
+    width: 100%;
     height: 100px;
     background: #7586ba;
     display: flex;

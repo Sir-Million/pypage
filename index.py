@@ -14,9 +14,9 @@ def contato():
 def about():
     return render_template('about.html')
 
-@app.route('/apply')
-def apply():
-    return render_template('apply.html')
+@app.route('/team')
+def team():
+    return render_template('team.html')
 
 @app.route('/projects')
 def projects():
